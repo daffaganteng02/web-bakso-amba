@@ -1,2 +1,484 @@
-# web-bakso-amba
-bakso amba (AMbang BAngso)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Bakso Amba 💀</title>
+
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            background: linear-gradient(rgba(255,212,162,0.9), rgba(255,212,162,0.9)),url("logo bakso.png");
+            background-repeat: repeat;
+            background-position: center;
+            background-size: 500px;
+            background-attachment: fixed;
+        }
+
+        .header{
+            background-color: black;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 15px 20px;
+        }
+
+        .logo-area{
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .logo{
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid red;
+        }
+
+        .nama{
+            color: red;
+            font-size: 28px;
+            font-weight: bold;
+            font-family: "Angkor", serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .menu{
+            display: flex;
+            gap: 20px;
+            margin: auto;
+        }
+
+        .menu a{
+            color: red;
+            text-decoration: none;
+            padding: 10px 15px;
+            transition: 0.3s;
+            border-radius: 10px;
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+            font-family: "Angkor", serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .menu a:hover{
+            background-color: white;
+            color: black;
+        }
+
+        .content{
+            padding: 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .text{
+            width: 100%;
+            text-align: center;
+        }
+
+        .text h1{
+            font-size: 40px;
+            margin-bottom: 15px;
+        }
+
+        .text p{
+            font-size: 18px;
+            text-align: center;
+            line-height: 1.8;
+        }
+
+        .btn{
+            bottom: 20px;
+            left: 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            padding: 0 40px;
+        }
+
+        .btn a{
+            text-decoration: none;
+            background-color: red;
+            color: white;
+            padding: 15px 25px;
+            border-radius: 10px;
+            font-size: 18px;
+            transition: 0.3s;
+            font-weight: bold;
+        }
+
+        .btn a:hover{
+            background-color: black;
+            transform: scale(1.05);
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+
+        <div class="logo-area">
+            <img src="logo bakso.png" class="logo">
+            <div class="nama">Ambang Bangso</div>
+        </div>
+
+        <div class="menu">
+            <a href="home.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+
+    </div>
+
+    <div class="content">
+
+        <div class="text">
+            <h1><b>ABOUT AMBANG BANGSO</b></h1>
+            <p>
+                Cerita
+
+Di pinggir jalan yang selalu ramai dilewati kendaraan, berdirilah sebuah warung sederhana dengan papan merah besar bertuliskan BAKSO AMBA — AMbang BAngso. Bangunannya tidak terlalu besar, hanya terdiri dari meja-meja kayu panjang, kursi plastik merah, dan lampu kuning hangat yang menyala terang setiap malam. Namun ada satu hal yang membuat orang selalu penasaran: aroma kuah baksonya yang sangat khas.
+
+Tidak banyak orang tahu kalau pemilik warung itu dulunya hanyalah seorang tukang bakso keliling bernama Rusdi. Setiap hari ia mendorong gerobak tuanya menyusuri gang-gang sempit dan jalanan kampung demi mencari uang untuk keluarganya. Di rumah kontrakan kecil yang hampir roboh, ada seorang istri dan dua anak yang selalu menunggu kepulangannya.
+
+Hidup Rusdi jauh dari kata mudah, selain harus memenuhi kebutuhan sehari-hari, ia juga menanggung hutang keluarga yang terus menumpuk sejak ayahnya meninggal karena sakit. Penagih hutang sering datang ke rumah, membuat istrinya ketakutan setiap kali mendengar suara motor berhenti di depan pagar.
+
+“Pak… kapan hutangnya dibayar?” tanya istrinya suatu malam dengan suara lirih.
+
+Rusdi hanya diam sambil menatap uang receh hasil jualannya hari itu.
+
+Tidak sampai lima puluh ribu, kadang jualannya hanya laku satu atau dua mangkuk. Kadang malah tidak laku sama sekali. Banyak orang lewat begitu saja tanpa melirik gerobaknya.
+
+“Baksooo… bakso panas…” teriak Rusdi lemah di pinggir jalan.
+
+Namun suara kendaraan lebih keras daripada suaranya.
+
+Malam hari, ia sering pulang dengan langkah berat sambil membawa panci kuah yang masih penuh. Anak-anaknya yang awalnya berlari menyambut kepulangan ayah mereka perlahan mulai mengerti keadaan. Mereka tidak lagi meminta mainan atau jajan seperti anak-anak lain.
+
+Rusdi merasa gagal sebagai kepala keluarga, hari demi hari berlalu tanpa perubahan. Hutang semakin besar. Gerobaknya mulai rusak di sana-sini. Roda depannya sering macet dan pegangan kayunya hampir patah.
+
+Hingga suatu malam hujan deras turun ketika Rusdi masih berjualan di pinggir jalan raya.
+
+Karena ingin cepat menepi, ia mendorong gerobaknya sedikit lebih cepat dari biasanya. Namun dari arah belakang, sebuah motor melaju kencang dan menabrak gerobaknya hingga terbalik.
+
+BRAK!
+
+Panci kuah tumpah ke aspal. Mangkuk pecah berserakan. Bakso menggelinding masuk ke selokan bercampur air hujan.
+
+Rusdi jatuh terduduk.
+
+Pengendara motor itu kabur begitu saja tanpa menolong.
+
+Rusdi hanya bisa memandangi dagangannya yang hancur sambil diguyur hujan deras. Malam itu terasa seperti titik terendah dalam hidupnya.
+
+Sesampainya di rumah, ia menangis untuk pertama kalinya di depan istrinya.
+
+“Aku capek…” ucapnya lirih. “Aku udah nggak sanggup lagi.”
+
+Beberapa minggu setelah kejadian itu, Rusdi berhenti berjualan. Ia bekerja serabutan demi bertahan hidup. Kadang menjadi buruh bangunan, kadang membantu angkut barang di pasar.
+
+Suatu hari, setelah hampir dua bulan berhenti berjualan, Rusdi akhirnya memberanikan diri kembali mendorong gerobaknya keluar rumah. Gerobak itu sudah tampak lebih reyot dari sebelumnya. Catnya mengelupas, rodanya masih sering berbunyi berdecit, dan pegangan kayunya dibalut kain bekas agar tidak melukai tangan.
+
+Namun kali ini, entah mengapa, hari pertamanya kembali berjualan terasa berbeda.
+
+Baru beberapa menit berhenti di pinggir jalan, seorang pelanggan datang membeli dua mangkuk sekaligus. Tak lama kemudian datang lagi pelanggan lain. Dan setelah magrib, gerobaknya mulai dikerumuni pembeli.
+
+“Baksonya enak juga ya, Pak.”
+
+“Kuahnya beda dari yang lain.”
+
+“Tambah satu bungkus lagi!”
+
+Rusdi sampai kebingungan sendiri melayani pesanan yang datang bertubi-tubi. Untuk pertama kalinya setelah sekian lama, dagangannya habis sebelum tengah malam.
+
+Malam itu ia pulang dengan wajah yang belum pernah dilihat istrinya selama bertahun-tahun.
+
+Senyum.
+
+Sejak hari itu, pelanggan Rusdi semakin banyak. Orang-orang mulai mengenal bakso keliling miliknya. Ada yang sengaja menunggu di ujung gang hanya untuk membeli sebelum kehabisan.
+
+Hari demi hari berlalu, dan usaha Rusdi berkembang dengan sangat cepat.
+
+Dalam beberapa bulan, ia berhasil melunasi sebagian hutangnya. Gerobak lamanya diganti dengan gerobak baru yang lebih besar dan bersih. Setahun kemudian, ia sudah mampu menyewa sebuah ruko kecil di pinggir jalan raya.
+
+Di situlah pertama kali papan merah besar bertuliskan BAKSO AMBA — AMbang BAngso dipasang.
+
+Warung itu langsung ramai sejak awal buka.
+
+Asap kuah selalu mengepul dari dapur. Suara pelanggan tak pernah berhenti terdengar. Bahkan kadang antrean sampai memenuhi bahu jalan.
+
+Dua tahun kemudian, Rusdi sudah memiliki beberapa pegawai. Ada yang bertugas mencuci mangkuk, melayani pelanggan, hingga mengantar pesanan. Namun ada satu hal yang selalu membuat para karyawan merasa heran.
+
+Rusdi tidak pernah mengizinkan siapa pun masuk ke dapur utama.
+
+Semua bahan bakso selalu ia siapkan sendiri.
+
+Ia datang paling pagi sebelum warung buka dan pulang paling malam setelah semua pegawai selesai bekerja. Bahkan untuk urusan kuah, adonan bakso, dan bumbu, tidak ada seorang pun yang boleh membantu.
+
+“Biar saya saja,” kata Rusdi setiap kali ada pegawai yang menawarkan bantuan.
+
+Awalnya para karyawan menganggap itu hal biasa. Mereka pikir mungkin Rusdi hanya perfeksionis soal rasa.
+
+Namun lama-kelamaan keanehan itu semakin terasa.
+
+Setiap dini hari, Rusdi sering terlihat membawa kantong hitam besar ke dapur belakang sendirian. Kadang tercium bau amis samar yang berbeda dari aroma daging sapi pada umumnya.
+
+Suatu malam, seorang pegawai bernama Wahyu memberanikan diri bertanya.
+
+“Pak… kenapa dari dulu bapak selalu masak sendiri? Bahkan kuah aja nggak boleh kami sentuh.”
+
+Rusdi yang sedang mengaduk kuah langsung terdiam beberapa detik.
+
+Lalu ia tersenyum kecil.
+
+“Rahasia rasa bakso itu ada di tangan sendiri,” jawabnya pelan. “Kalau terlalu banyak orang ikut campur, cita rasanya bisa rusak.”
+
+“Tapi bapak nggak capek?” tanya Wahyu lagi.
+
+Rusdi kembali mengaduk kuahnya perlahan.
+
+“Capek nggak masalah,” katanya sambil menatap uap panas yang mengepul dari panci besar. “Yang penting pelanggan tetap datang.”
+
+Para pegawai hanya saling berpandangan lalu mengangguk pelan. Tidak ada yang berani bertanya lebih jauh.
+
+Lagipula, usaha mereka memang benar-benar sukses.
+
+Setiap malam warung Bakso Amba selalu penuh pelanggan. Banyak orang rela antre lama demi semangkuk bakso Rusdi yang katanya punya rasa paling khas dan bikin ketagihan.
+
+Namun tanpa mereka sadari, di balik aroma kuah yang menggoda itu… tersimpan sesuatu yang perlahan akan menghancurkan semuanya.
+
+Suatu malam, warung Bakso Amba terlihat lebih ramai dari biasanya. Pelanggan datang tanpa henti sejak habis magrib. Rusdi tampak sibuk mondar-mandir di dapur sambil sesekali memeriksa panci kuahnya.
+
+Namun sekitar pukul sembilan malam, ponsel Rusdi tiba-tiba berdering.
+
+Ia melihat layar ponselnya beberapa detik dengan wajah berubah tegang.
+
+Tanpa banyak bicara, Rusdi segera memanggil Wahyu.
+
+“Yu, saya keluar sebentar. Tolong jaga warung.”
+
+“Siap, Pak,” jawab Wahyu.
+
+“Jangan masuk dapur belakang,” tambah Rusdi cepat sebelum pergi.
+
+Wahyu hanya mengangguk bingung.
+
+Malam semakin larut. Satu per satu pelanggan mulai pulang. Kursi-kursi mulai kosong dan suara kendaraan di jalan raya perlahan berkurang.
+
+Namun hingga jam tutup tiba, Rusdi belum juga kembali.
+
+Para pegawai mulai saling berpandangan.
+
+“Pak Rusdi ke mana ya?” gumam salah satu pegawai.
+
+“Nggak biasanya sampai belum balik.”
+
+Karena hari sudah terlalu malam, Wahyu akhirnya berinisiatif menutup warung. Ia meminta pegawai lain pulang lebih dulu sementara dirinya membereskan bagian dapur.
+
+Awalnya semua terasa biasa saja.
+
+Ia mencuci mangkuk, menyapu lantai, lalu mulai menyimpan bahan-bahan makanan ke dalam kulkas besar di dapur belakang.
+
+Namun saat membuka bagian rak bawah kulkas, Wahyu mengernyit.
+
+Di sana ada beberapa kantong plastik hitam besar yang diikat rapat.
+
+“Apaan ini…” gumamnya pelan.
+
+Saat disentuh, isi kantong itu terasa lembek dan dingin.
+
+Karena penasaran, Wahyu perlahan membuka salah satu ikatannya.
+
+Seketika wajahnya berubah pucat.
+
+Di dalam kantong itu terdapat potongan-potongan daging kecil berwarna merah gelap dengan bentuk yang aneh dan tidak beraturan. Bukan seperti potongan daging sapi yang biasa ia lihat.
+
+Bau amis menyengat langsung keluar.
+
+Jantung Wahyu mulai berdegup lebih cepat.
+
+Dengan tangan gemetar, ia menutup kembali kantong tersebut.
+
+Namun rasa penasarannya belum hilang.
+
+Matanya lalu tertuju pada sebuah dandang besar di sudut dapur yang sejak dulu tidak pernah boleh disentuh pegawai mana pun.
+
+Pelan-pelan ia membuka tutup dandang itu.
+
+Di dalamnya hanya ada selembar kain putih lusuh yang tampak lembap dan penuh bercak kecokelatan.
+
+Wahyu semakin bingung.
+
+Belum sempat ia mencerna semua yang dilihatnya, suara pintu warung tiba-tiba terbuka keras.
+
+BRAK!
+
+“NGAPAIN KAMU?!”
+
+Suara bentakan Rusdi membuat Wahyu langsung tersentak.
+
+Rusdi berdiri di depan dapur dengan napas memburu dan wajah merah penuh amarah. Matanya menatap tajam ke arah kantong plastik yang sedikit terbuka di lantai.
+
+“Siapa suruh kamu masuk sini?!” bentaknya lagi.
+
+Wahyu mundur selangkah. “Ma-maaf Pak… saya cuma mau beresin warung karena bapak belum balik…”
+
+“Tapi saya bilang jangan masuk dapur belakang!”
+
+Rusdi langsung berjalan cepat menutup kantong plastik itu lalu mengambil kain putih dari dalam dandang dengan tergesa-gesa.
+
+Tangannya tampak gemetar.
+
+Wahyu memperhatikan wajah atasannya itu dengan takut sekaligus curiga.
+
+“Pak…” ucap Wahyu pelan. “Itu daging apa?”
+
+Rusdi terdiam.
+
+Suasana dapur mendadak sunyi. Hanya suara kipas angin tua yang terdengar berdecit pelan di sudut ruangan.
+
+Beberapa detik kemudian, Rusdi menoleh perlahan.
+
+Tatapannya dingin.
+
+“Kamu nggak perlu tahu,” katanya lirih.
+
+Jawaban itu justru membuat bulu kuduk Wahyu meremang.
+
+Keesokan harinya, Wahyu datang bekerja dengan wajah pucat dan pikiran yang masih kacau. Semalaman ia tidak bisa tidur memikirkan isi kantong hitam dan sikap Rusdi yang begitu marah saat dirinya masuk ke dapur belakang.
+
+Saat jam istirahat, Wahyu akhirnya menceritakan semuanya kepada salah satu pegawai lain bernama Deni.
+
+“Aku sumpah, Den… itu bukan daging biasa,” bisiknya pelan. “Dan ada kain putih di dalam dandang. Pak Rusdi marah banget waktu aku lihat.”
+
+Deni yang awalnya terlihat santai perlahan berubah serius.
+
+“Tunggu…” katanya pelan sambil menatap Wahyu. “Jangan-jangan itu alasan kenapa aku sering lihat hal aneh di sini.”
+
+Wahyu langsung menoleh cepat. “Maksudnya?”
+
+Deni menelan ludah sebelum melanjutkan cerita.
+
+“Beberapa kali pas aku pulang malam, aku sering lihat bayangan orang berdiri di dekat dapur belakang. Kadang kayak perempuan pakai kain putih.” Suaranya mengecil. “Aku kira cuma halusinasi karena kecapekan.”
+
+Bulu kuduk Wahyu langsung meremang.
+
+“Dan satu lagi…” lanjut Deni pelan. “Aku pernah lihat Pak Rusdi tengah malam nyuci sesuatu di belakang warung. Banyak banget darah di lantai.”
+
+Sejak obrolan itu, suasana warung mulai berubah.
+
+Wahyu dan Deni diam-diam memperhatikan gerak-gerik Rusdi setiap malam. Mereka mulai sadar bahwa setiap dini hari, Rusdi selalu mengunci dapur belakang sendirian selama berjam-jam.
+
+Lama-kelamaan gosip itu mulai menyebar ke pegawai lain.
+
+Ada yang mengaku pernah mendengar suara mencicit dari dapur.
+
+Ada yang pernah mencium bau bangkai saat pagi hari.
+
+Bahkan salah satu pegawai perempuan bersumpah pernah melihat kain putih tergantung sendiri di dekat tempat kuah meski tidak ada angin sama sekali.
+
+Bisik-bisik tentang Bakso Amba mulai menyebar keluar warung.
+
+Awalnya hanya antarpegawai.
+
+Lalu sampai ke pelanggan.
+
+Kemudian menyebar ke warga sekitar.
+
+Orang-orang mulai curiga.
+
+“Katanya ada pesugihan.”
+
+“Katanya kuahnya dicampur sesuatu.”
+
+“Makanya orang jadi ketagihan.”
+
+Hingga suatu malam, seseorang diam-diam melaporkan semuanya kepada pihak berwajib.
+
+Polisi dan petugas kesehatan akhirnya datang melakukan pemeriksaan mendadak ke warung Bakso Amba.
+
+Rusdi sempat mencoba menghalangi mereka masuk ke dapur belakang.
+
+Namun semuanya terlambat.
+
+Di dalam gudang belakang, petugas menemukan beberapa kantong hitam berisi bangkai tikus yang sudah dikuliti. Di salah satu panci kaldu juga ditemukan potongan kain kafan lusuh yang sengaja direndam di dalam kuah.
+
+Seluruh warung langsung gempar.
+
+Warga yang mengetahui hal itu marah besar. Banyak pelanggan muntah setelah mengetahui apa yang selama ini mereka makan.
+
+Media lokal mulai memberitakan kasus tersebut ke mana-mana.
+
+Nama Bakso Amba yang dulu terkenal kini berubah menjadi bahan ketakutan dan jijik masyarakat.
+
+Rusdi akhirnya ditangkap polisi atas tuduhan pelanggaran kesehatan dan penipuan terhadap konsumen.
+
+Saat digiring masuk mobil polisi, wajah Rusdi terlihat kosong. Ia hanya tertunduk tanpa mengatakan apa pun.
+
+Warung Bakso Amba resmi ditutup.
+
+Papan merah besar di depan warung perlahan kusam dimakan hujan dan debu jalanan.
+
+Namun kejadian aneh belum berhenti sampai di situ.
+
+Seminggu setelah ditahan, kondisi Rusdi tiba-tiba menurun drastis.
+
+Tubuhnya sering kejang-kejang pada malam hari.
+
+Kadang ia berteriak histeris sendirian di dalam sel sambil memohon ampun kepada sesuatu yang tidak terlihat.
+
+Para tahanan lain mulai ketakutan karena Rusdi sering berbicara sendiri tengah malam.
+
+“Jangan ganggu aku…”
+
+“Aku udah nurut…”
+
+“Itu bukan salahku…”
+
+Suatu pagi, petugas menemukan Rusdi tergeletak di sudut sel dalam keadaan mengenaskan.
+
+Matanya terbuka lebar.
+
+Mulutnya berbusa.
+
+Dan di lehernya terdapat bekas hitam seperti lilitan sesuatu.
+
+Tidak ada satu pun tahanan yang melihat apa yang terjadi malam itu.
+
+Rusdi dinyatakan meninggal dunia secara tidak wajar.
+
+Sejak saat itu, warung Bakso Amba benar-benar ditinggalkan kosong.
+
+Namun warga sekitar masih sering mengaku mencium aroma kuah bakso dari bangunan tua itu setiap tengah malam, meski tidak ada lagi aktivitas di sana.
+-TAMAT-
+            </p>
+        </div>
+
+    </div>
+
+    <div class="btn">
+                <a href="menu.html">Back</a>
+                <a href="contact.html">Next</a>
+            </div>
+
+</body>
+</html>
+
+
